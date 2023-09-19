@@ -62,6 +62,17 @@ body * {
     margin: 0;
 }
 
+.card-login>p {
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-login>p>a {
+    color: #646262;
+
+}
+
 .textfield {
     width: 100%;
     display: flex;
@@ -109,7 +120,7 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-.main-login-site{
+.main-login-site {
     width: 100vw;
     height: 100vh;
     background: #201b2c;
@@ -118,7 +129,7 @@ body * {
     align-items: center;
 }
 
-.btn-entrar-site{
+.btn-entrar-site {
     padding: 10px 20px;
     margin: 25px;
     border: none;
