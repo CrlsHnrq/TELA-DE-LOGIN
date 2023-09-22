@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylec.css">
     <title>Cadastra-se</title>
 </head>
+
 <body>
-    
+    <div class="main-page">
+
+        <!--Card main-->
+        <div class="forms-container">
+            <h1>Realize seu cadastro</h1>
+
+            <!--INPUTZ-->
+            <div class="textfield">
+                <label for="texto-nome-sobrenome" class="customizar-input-label">Nome e sobrenome</label>
+                <input type="text" id="texto-nome-sobrenome" placeholder="Insira seu Nome Completo" required value>
+            </div>
+            <div class="textfield">
+                <label for="texto-email" class="customizar-input-label">Email</label>
+                <input type="text" id="texto-email" placeholder="Seu email padrão" required value>
+            </div>
+            <div class="textfield">
+                <label for="texto-senha" class="customizar-input-label">Senha (Minimo 8 caracteres)</label>
+                <input type="password" id="texto-senha" placeholder="Sua senha" required value>
+            </div>
+            <div class="textfield">
+                <label for="texto-celular" class="customizar-input-label">Celular (opcional)</label>
+                <input type="text" id="texto-celular" placeholder="Numero de celular" required value maxlength="11"
+                    size="15">
+            </div>
+
+            <!--BOTÃO CADASTRAR-->
+            <button type="submit" class="btn-primario">
+                <span class="btn-text">Cadastrar</span>
+            </button>
+
+            <!--OUTRAS FORMAS DE LOGIN-->
+            <div class="frase-container">
+                <span>Ou entre por outras formas</span>
+            </div>
+
+            <!--cadastro social media-->
+            <div class="social-media">
+                    <a href="#">
+                        <img src="image/Facebook.png" alt="Facebook Logo">
+                    </a>
+                    <a href="#">
+                        <img src="image/google.png" alt="Google Logo">
+                    </a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
